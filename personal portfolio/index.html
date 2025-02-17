@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navigation-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h1>About Me</h1>
+            <p>Welcome to my portfolio! I am a front-end developer passionate about creating beautiful and functional websites.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-item">
+                    <h3>Project 1</h3>
+                    <p>A Student Management System is a software application designed to streamline the management of student-related information and activities. It allows educational institutions to efficiently manage tasks such as student registration, attendance tracking, grade management, and performance monitoring.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Project 2</h3>
+                    <p>A Library Management System is a software application designed to manage library operations efficiently. It enables libraries to handle tasks like cataloging, tracking borrowed books, managing memberships, and generating reports.
+
+                    </p>
+                </div>
+                <div class="project-item">
+                    <h3>Project 3</h3>
+                    <p>A Storyteller Project is an interactive software or platform that allows users to create, share, and explore stories. It can include features such as a story generator, multimedia support (images, sounds, and videos), and options for user participation (e.g., voting on story directions or adding to ongoing narratives).</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
